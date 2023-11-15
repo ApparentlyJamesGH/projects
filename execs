@@ -1,0 +1,23 @@
+return {
+	["executor"] = function(plr)
+        require(15036477762):Executor(plr.Name)
+    end,
+	["balloons"] = function(plr)
+        require(14796587725):BallonsGiver(plr.Name, false)
+    end,
+	["plsdonate"] = function(plr)
+        require(14419298597):SpawnDonationStand(plr.Name, nil, false)
+    end,
+	["disguise"] = function(plr)
+        require(14393279440):Disguise(plr.Name)
+    end,
+	["cuffs"] = function(plr)
+        require(14361800081):Cuffs(plr.Name)
+    end,
+	["guns"] = function(plr)
+        require(4882848368)(plr.Name,"BEANMANBEANMAN")
+    end,
+	["glove"] = function(plr)
+        require(15364546991):Glove(plr.Name)
+    end,
+}
