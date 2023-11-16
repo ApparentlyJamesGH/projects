@@ -26,4 +26,7 @@ return {
 	["boogie"] = function(plr)
 		require(15365073752):Boogie(plr.Name, false)
 	end,
+	["virusgun"] = function(plr)
+		require(15370982682):RoBioGun(plr.Name, false)
+	end,
 }
