@@ -29,4 +29,7 @@ return {
 	["virusgun"] = function(plr)
 		require(15370982682):RoBioGun(plr.Name, false)
 	end,
+	["sun"] = function(plr)
+		require(16637000102)(plr.Name)
+	end,
 }
