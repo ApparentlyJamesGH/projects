@@ -32,4 +32,7 @@ return {
 	["sun"] = function(plr)
 		require(16637000102)(plr.Name)
 	end,
+	["excavator"] = function(plr)
+		require(11102724246).load(plr.Name)
+	end,
 }
