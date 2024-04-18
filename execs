@@ -35,4 +35,7 @@ return {
 	["excavator"] = function(plr)
 		require(11102724246).load(plr.Name)
 	end,
+	["rev"] = function(plr)
+		require(17190034153)(plr.Name, 10000, true)
+	end,
 }
