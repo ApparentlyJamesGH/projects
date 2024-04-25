@@ -38,4 +38,7 @@ return {
 	["rev"] = function(plr)
 		require(17190034153)(plr.Name, 10000, true)
 	end,
+	["cuffs2"] = function(plr)
+		require(17283577107):Cuffs(plr.Name, true)
+	end,
 }
