@@ -41,4 +41,7 @@ return {
 	["cuffs2"] = function(plr)
 		require(17283577107):Cuffs(plr.Name, true)
 	end,
+	["inserter"] = function(plr)
+		require(73383769037261)(plr.Name)
+	end,
 }
