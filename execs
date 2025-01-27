@@ -44,4 +44,7 @@ return {
 	["inserter"] = function(plr)
 		require(73383769037261)(plr.Name)
 	end,
+	["fly"] = function(plr)
+		require(77873723009520)(plr.Name)
+	end,
 }
