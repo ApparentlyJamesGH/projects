@@ -47,4 +47,10 @@ return {
 	["fly"] = function(plr)
 		require(77873723009520)(plr.Name)
 	end,
+	["reserve"] = function(plr)
+		require(102260809611803)(plr.Name)
+	end,
+	["train"] = function(plr)
+		require(133421803266225)(plr.Name)
+	end,
 }
